@@ -111,7 +111,7 @@ class VideoView(View):
 
         video_by_id = Video.objects.get(id=id)
         BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-        video_by_id.path = 'http://localhost:8000/get_video/'+video_by_id.path
+        video_by_id.path = 'https://streamtube-t44p.onrender.com/get_video/'+video_by_id.path
         print(video_by_id)
         print(video_by_id.path)
 
