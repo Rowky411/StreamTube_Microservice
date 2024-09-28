@@ -5,6 +5,8 @@ Django==5.1.1
 django-bootstrap4==24.4
 django-crispy-forms==2.3
 django-debug-toolbar==4.4.6
+gunicorn==23.0.0
+packaging==24.1
 screen==1.0.1
 setuptools==75.1.0
 soupsieve==2.6
