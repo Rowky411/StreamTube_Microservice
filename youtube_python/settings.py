@@ -21,6 +21,8 @@ INSTALLED_APPS = [
     'youtube',
     'debug_toolbar',
     'crispy_forms',
+    'bootstrap4',
+    'crispy_bootstrap4',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -91,12 +93,13 @@ AUTH_PASSWORD_VALIDATORS = [
 
 INTERNAL_IPS = ['127.0.0.1', 'localhost']
 
+
 # Internationalization
 # https://docs.djangoproject.com/en/2.1/topics/i18n/
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'Asia/Kolkata'
+TIME_ZONE = 'Asia/Dhaka'
 
 USE_I18N = True
 
@@ -111,3 +114,4 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
+CRISPY_ALLOWED_TEMPLATE_PACKS = 'bootstrap4'
