@@ -11,3 +11,4 @@ screen==1.0.1
 setuptools==75.1.0
 soupsieve==2.6
 sqlparse==0.5.1
+whitenoise==6.7.0
